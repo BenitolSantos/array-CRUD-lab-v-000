@@ -8,18 +8,22 @@ end
 
 def add_element_to_end_of_array(array, element)
   array.push(element)
+  #push adds elements to the end of an array
 end
 
 def add_element_to_start_of_array(array, element)
   array.unshift(element)
+  #unshift adds elements to the start of an array
 end
 
 def remove_element_from_end_of_array(array)
   array.pop
+  #pop removes elements from the end of an array
 end
 
 def remove_element_from_start_of_array(array)
   array.shift
+  #shift removes elements from the start of an array
 end
 
 def retrieve_element_from_index(array, index_number)
